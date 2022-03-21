@@ -49,7 +49,7 @@ public class Auto_Shoot_N_Drive extends SequentialCommandGroup {
                                                       )
                                             )
                 ),
-                new Drive_For_Distance(m_driveTrain)
+                new DriveDistance(4, m_driveTrain) //drive for 4
             
         );
     }
