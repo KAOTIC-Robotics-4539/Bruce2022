@@ -49,7 +49,8 @@ public class DriveResetEncoder extends InstantCommand {
     // Called once when this command runs
     @Override
     public void initialize() {
-        m_driveTrain.resetDriveEncoder();
+        //m_driveTrain.resetDriveEncoder();
+        m_driveTrain.my_reset_Right_Encoder();
     }
 
     @Override

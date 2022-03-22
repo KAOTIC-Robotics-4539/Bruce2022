@@ -1,4 +1,21 @@
 {
+  "HALProvider": {
+    "Encoders": {
+      "0": {
+        "header": {
+          "open": true
+        }
+      },
+      "window": {
+        "visible": true
+      }
+    },
+    "RoboRIO": {
+      "RoboRIO Input": {
+        "open": true
+      }
+    }
+  },
   "NTProvider": {
     "types": {
       "/FMSInfo": "FMSInfo",
@@ -18,6 +35,7 @@
       "/SmartDashboard/Auto_Shoot_N_Drive": "Command",
       "/SmartDashboard/Autonomous Command": "Command",
       "/SmartDashboard/DriveDistance": "Command",
+      "/SmartDashboard/DriveDistance: distance": "Command",
       "/SmartDashboard/DriveResetEncoder": "Command",
       "/SmartDashboard/DriveTrain": "Subsystem",
       "/SmartDashboard/Drive_For_Distance": "Command",
@@ -38,6 +56,13 @@
       "/SmartDashboard/intakeRun: intakeRunReverse": "Command",
       "/SmartDashboard/shooter": "Subsystem",
       "/SmartDashboard/trigger": "Subsystem"
+    },
+    "windows": {
+      "/SmartDashboard/Auto Mode": {
+        "window": {
+          "visible": true
+        }
+      }
     }
   },
   "NetworkTables View": {
