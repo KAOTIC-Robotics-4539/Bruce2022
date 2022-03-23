@@ -128,11 +128,11 @@ intakeOut_B.whenPressed(new intakeArmsOut(true, m_intakeArms) ,true);
     //SmartDashboard.putData("IntakeOut_B",new intakeArmsOut(true, m_intakeArms) );
 
 final JoystickButton intakeRollerRunOut_A = new JoystickButton(coDriverControler, XboxController.Button.kA.value);        
-intakeRollerRunOut_A.whileHeld(new intakeRun(.75, m_intakeRollers) ,true);
+intakeRollerRunOut_A.whileHeld(new intakeRun(-.75, m_intakeRollers) ,true);
     //SmartDashboard.putData("intakeRollerRunOut_A",new intakeRun(-.75, m_intakeRollers) );
 
 final JoystickButton intakeRollerRunIn_RB = new JoystickButton(coDriverControler, XboxController.Button.kRightBumper.value);        
-intakeRollerRunIn_RB.whileHeld(new intakeRun(-0.75, m_intakeRollers) ,true);
+intakeRollerRunIn_RB.whileHeld(new intakeRun(0.75, m_intakeRollers) ,true);
     //SmartDashboard.putData("intakeRollerRunIn_RB",new intakeRun(0.75, m_intakeRollers) );
 
 final JoystickButton ballMangeReverse_Y = new JoystickButton(coDriverControler, XboxController.Button.kY.value);        
