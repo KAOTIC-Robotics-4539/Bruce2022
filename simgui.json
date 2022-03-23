@@ -1,0 +1,71 @@
+{
+  "HALProvider": {
+    "Encoders": {
+      "0": {
+        "header": {
+          "open": true
+        }
+      },
+      "window": {
+        "visible": true
+      }
+    },
+    "RoboRIO": {
+      "RoboRIO Input": {
+        "open": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/ClimberUp": "Subsystem",
+      "/LiveWindow/DriveTrain/Differential Drive 1": "DifferentialDrive",
+      "/LiveWindow/DriveTrain/gyro": "Gyro",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/LiveWindow/Ungrouped/Talon FX [0]": "Motor Controller",
+      "/LiveWindow/Ungrouped/Victor SPX [6]": "Motor Controller",
+      "/LiveWindow/ballManagement": "Subsystem",
+      "/LiveWindow/intakeArms": "Subsystem",
+      "/LiveWindow/intakeRollers": "Subsystem",
+      "/LiveWindow/shooter": "Subsystem",
+      "/LiveWindow/trigger": "Subsystem",
+      "/SmartDashboard/Auto Mode": "String Chooser",
+      "/SmartDashboard/Auto_2_Ball": "Command",
+      "/SmartDashboard/Auto_Shoot_N_Drive": "Command",
+      "/SmartDashboard/Autonomous Command": "Command",
+      "/SmartDashboard/DriveDistance": "Command",
+      "/SmartDashboard/DriveDistance: distance": "Command",
+      "/SmartDashboard/DriveResetEncoder": "Command",
+      "/SmartDashboard/DriveTrain": "Subsystem",
+      "/SmartDashboard/Drive_For_Distance": "Command",
+      "/SmartDashboard/IntakeOut_B": "Command",
+      "/SmartDashboard/ShiftHigh_start": "Command",
+      "/SmartDashboard/ShiftLow_Back": "Command",
+      "/SmartDashboard/ShooterRun_RB": "Command",
+      "/SmartDashboard/TriggerRun_LB": "Command",
+      "/SmartDashboard/ballManagement": "Subsystem",
+      "/SmartDashboard/ballMangeReverse_Y": "Command",
+      "/SmartDashboard/ballMangement_RunLB": "Command",
+      "/SmartDashboard/intakeArms": "Subsystem",
+      "/SmartDashboard/intakeIn_X": "Command",
+      "/SmartDashboard/intakeRollerRunIn_RB": "Command",
+      "/SmartDashboard/intakeRollerRunOut_A": "Command",
+      "/SmartDashboard/intakeRollers": "Subsystem",
+      "/SmartDashboard/intakeRun: intakeRunForward": "Command",
+      "/SmartDashboard/intakeRun: intakeRunReverse": "Command",
+      "/SmartDashboard/shooter": "Subsystem",
+      "/SmartDashboard/trigger": "Subsystem"
+    },
+    "windows": {
+      "/SmartDashboard/Auto Mode": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables View": {
+    "visible": false
+  }
+}

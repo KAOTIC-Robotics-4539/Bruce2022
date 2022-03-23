@@ -28,5 +28,7 @@ public class Constants {
     *   public static final int kRightMotor2Port = 3; 
     * }
     */ 
+    public static final int DriveEncoder_A = 0;
+    public static final int DriveEncoder_B = 1;
 }
 

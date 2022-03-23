@@ -14,6 +14,8 @@ package frc.robot;
 
 import edu.wpi.first.hal.FRCNetComm.tInstances;
 import edu.wpi.first.hal.FRCNetComm.tResourceType;
+import edu.wpi.first.cameraserver.CameraServer;
+import edu.wpi.first.cscore.UsbCamera;
 import edu.wpi.first.hal.HAL;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj2.command.Command;
@@ -38,6 +40,12 @@ public class Robot extends TimedRobot {
      */
     @Override
     public void robotInit() {
+        UsbCamera camera =  CameraServer.startAutomaticCapture();
+        camera.setBrightness(10);
+        camera.setExposureAuto();
+        camera.setWhiteBalanceAuto();
+        camera.setResolution(320,240);
+        
         // Instantiate our RobotContainer.  This will perform all our button bindings, and put our
         // autonomous chooser on the dashboard.
         m_robotContainer = RobotContainer.getInstance();
